@@ -7,18 +7,15 @@
 Pod::Spec.new do |s|
   s.name         = "SKCommons"
   s.version      = "0.1.0"
-  s.summary      = "A short description of SKCommons."
+  s.summary      = "Some handy helper classes."
   s.description  = <<-DESC
-                    An optional longer description of SKCommons
-
-                    * Markdown format.
-                    * Don't worry about the indent, we strip it!
+                    Some handy helper classes.
                    DESC
-  s.homepage     = "http://EXAMPLE/NAME"
-  s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  # s.homepage     = ""
+  # s.screenshots  = "", ""
   s.license      = 'MIT'
-  s.author       = { "Szczepan Kuźniarz" => "szczepan.kuzniarz@gmail.com" }
-  s.source       = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.author       = { "Szczepan Kuzniarz" => "szczepan.kuzniarz@gmail.com" }
+  s.source       = { :git => "https://github.com/skuzniarz/SKCommons.git", :tag => s.version.to_s }
 
   # s.platform     = :ios, '5.0'
   # s.ios.deployment_target = '5.0'
