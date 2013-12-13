@@ -18,7 +18,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Szczepan Kuźniarz, szczepan.kuzniarz@gmail.com
+Szczepan Kuzniarz, szczepan.kuzniarz@gmail.com
 
 ## License
 

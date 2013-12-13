@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "SKCommons"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Some handy helper classes."
   s.description  = <<-DESC
                     Some handy helper classes.
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "", ""
   s.license      = 'MIT'
   s.author       = { "Szczepan Kuzniarz" => "szczepan.kuzniarz@gmail.com" }
-  s.source       = { :git => "https://github.com/skuzniarz/SKCommons.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/skuzniarz/SKCommons.git", :tag => s.version }
 
   # s.platform     = :ios, '5.0'
   # s.ios.deployment_target = '5.0'
