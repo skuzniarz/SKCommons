@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		83444306185B29B000C66776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83444305185B29B000C66776 /* Foundation.framework */; };
-		83444331185B2B3400C66776 /* SKQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = 83444330185B2B3400C66776 /* SKQueues.m */; };
+		83444334185B33D000C66776 /* SKQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = 83444333185B33D000C66776 /* SKQueues.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,8 +28,8 @@
 		83444305185B29B000C66776 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83444309185B29B000C66776 /* SKCommons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SKCommons-Prefix.pch"; sourceTree = "<group>"; };
 		83444316185B29B000C66776 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8344432F185B2B3400C66776 /* SKQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKQueues.h; path = ../SKQueues.h; sourceTree = "<group>"; };
-		83444330185B2B3400C66776 /* SKQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKQueues.m; path = ../SKQueues.m; sourceTree = "<group>"; };
+		83444332185B33D000C66776 /* SKQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKQueues.h; path = Classes/SKQueues.h; sourceTree = SOURCE_ROOT; };
+		83444333185B33D000C66776 /* SKQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKQueues.m; path = Classes/SKQueues.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +73,8 @@
 		83444307185B29B000C66776 /* SKCommons */ = {
 			isa = PBXGroup;
 			children = (
-				8344432F185B2B3400C66776 /* SKQueues.h */,
-				83444330185B2B3400C66776 /* SKQueues.m */,
+				83444332185B33D000C66776 /* SKQueues.h */,
+				83444333185B33D000C66776 /* SKQueues.m */,
 				83444308185B29B000C66776 /* Supporting Files */,
 			);
 			path = SKCommons;
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83444331185B2B3400C66776 /* SKQueues.m in Sources */,
+				83444334185B33D000C66776 /* SKQueues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
