@@ -1,12 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "SKCommons"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Some handy helper classes."
   s.description  = <<-DESC
                     Some handy helper classes.
                    DESC
   s.homepage     = "http://theusefulpot.blogspot.com/"
-  # s.screenshots  = "", ""
   s.license      = 'MIT'
   s.author       = { "Szczepan Kuzniarz" => "szczepan.kuzniarz@gmail.com" }
   s.source       = { :git => "https://github.com/skuzniarz/SKCommons.git", :tag => s.version.to_s }
@@ -16,9 +15,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Classes'
-  # s.resources = 'Assets'
 
   s.public_header_files = 'SKQueues.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
 end
