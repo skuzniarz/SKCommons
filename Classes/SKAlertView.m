@@ -3,7 +3,7 @@
 //  SKCommons
 //
 //  Created by skuzniarz on 09/10/12.
-//  Copyright (c) 2012-2013 Szczepan Kuźniarz. All rights reserved.
+//  Copyright (c) 2012-2014 Szczepan Kuźniarz. All rights reserved.
 //
 
 #import "SKAlertView.h"
@@ -21,12 +21,6 @@
 @end
 
 @implementation SKAlertView
-
-@synthesize cancelBlock = cancelBlock_;
-@synthesize otherBlock = otherBlock_;
-@synthesize cancelButtonTitle = cancelButtonTitle_;
-@synthesize otherButtonTitle = otherButtonTitle_;
-
 
 + (void)showWithTitle:(NSString *)title message:(NSString *)message buttonTitle:(NSString *)buttonTitle {
     [self showWithTitle:title message:message cancelTitle:buttonTitle cancelBlock:nil otherTitle:nil otherBlock:nil];
