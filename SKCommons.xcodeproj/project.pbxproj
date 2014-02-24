@@ -13,6 +13,7 @@
 		837668B21873453500CA63C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837668B11873453500CA63C4 /* UIKit.framework */; };
 		837668B61874755A00CA63C4 /* SKQueues.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83444332185B33D000C66776 /* SKQueues.h */; };
 		837668B71874755A00CA63C4 /* SKAlertView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 837668A81873438D00CA63C4 /* SKAlertView.h */; };
+		83E6428A18BC014200CE294F /* CGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6428918BC014200CE294F /* CGUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,8 @@
 		837668A81873438D00CA63C4 /* SKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKAlertView.h; path = Classes/SKAlertView.h; sourceTree = SOURCE_ROOT; };
 		837668A91873438D00CA63C4 /* SKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAlertView.m; path = Classes/SKAlertView.m; sourceTree = SOURCE_ROOT; };
 		837668B11873453500CA63C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83E6428818BC014200CE294F /* CGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGUtils.h; path = Classes/CGUtils.h; sourceTree = SOURCE_ROOT; };
+		83E6428918BC014200CE294F /* CGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGUtils.m; path = Classes/CGUtils.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				837668A61873436800CA63C4 /* Foundation */,
+				83E6428B18BC017100CE294F /* QuartzCore */,
 				837668A71873437400CA63C4 /* UIKit */,
 				83444308185B29B000C66776 /* Supporting Files */,
 			);
@@ -115,6 +119,15 @@
 				837668A91873438D00CA63C4 /* SKAlertView.m */,
 			);
 			name = UIKit;
+			sourceTree = "<group>";
+		};
+		83E6428B18BC017100CE294F /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				83E6428818BC014200CE294F /* CGUtils.h */,
+				83E6428918BC014200CE294F /* CGUtils.m */,
+			);
+			name = QuartzCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +182,7 @@
 			files = (
 				83444334185B33D000C66776 /* SKQueues.m in Sources */,
 				837668AA1873438D00CA63C4 /* SKAlertView.m in Sources */,
+				83E6428A18BC014200CE294F /* CGUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
