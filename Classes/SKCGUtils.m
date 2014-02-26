@@ -6,11 +6,11 @@
 //  Copyright (c) 2013-2014 Szczepan Kuzniarz. All rights reserved.
 //
 
-#import "CGUtils.h"
+#import "SKCGUtils.h"
 #import <UIKit/UIKit.h>
 
 
-@implementation CGUtils
+@implementation SKCGUtils
 
 + (CGFloat)roundpx:(CGFloat)value {
     CGFloat scale = [UIScreen mainScreen].scale;

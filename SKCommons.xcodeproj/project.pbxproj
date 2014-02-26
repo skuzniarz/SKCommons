@@ -13,7 +13,9 @@
 		837668B21873453500CA63C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837668B11873453500CA63C4 /* UIKit.framework */; };
 		837668B61874755A00CA63C4 /* SKQueues.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83444332185B33D000C66776 /* SKQueues.h */; };
 		837668B71874755A00CA63C4 /* SKAlertView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 837668A81873438D00CA63C4 /* SKAlertView.h */; };
-		83E6428A18BC014200CE294F /* CGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6428918BC014200CE294F /* CGUtils.m */; };
+		83E6428A18BC014200CE294F /* SKCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6428918BC014200CE294F /* SKCGUtils.m */; };
+		83E6429C18BC0D7500CE294F /* SKCGUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6428818BC014200CE294F /* SKCGUtils.h */; };
+		83FF483F18BDF6CE00CDA567 /* SKNSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF483E18BDF6CE00CDA567 /* SKNSUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +25,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				83E6429C18BC0D7500CE294F /* SKCGUtils.h in CopyFiles */,
 				837668B61874755A00CA63C4 /* SKQueues.h in CopyFiles */,
 				837668B71874755A00CA63C4 /* SKAlertView.h in CopyFiles */,
 			);
@@ -40,8 +43,10 @@
 		837668A81873438D00CA63C4 /* SKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKAlertView.h; path = Classes/SKAlertView.h; sourceTree = SOURCE_ROOT; };
 		837668A91873438D00CA63C4 /* SKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAlertView.m; path = Classes/SKAlertView.m; sourceTree = SOURCE_ROOT; };
 		837668B11873453500CA63C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		83E6428818BC014200CE294F /* CGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGUtils.h; path = Classes/CGUtils.h; sourceTree = SOURCE_ROOT; };
-		83E6428918BC014200CE294F /* CGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGUtils.m; path = Classes/CGUtils.m; sourceTree = SOURCE_ROOT; };
+		83E6428818BC014200CE294F /* SKCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKCGUtils.h; path = Classes/SKCGUtils.h; sourceTree = SOURCE_ROOT; };
+		83E6428918BC014200CE294F /* SKCGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKCGUtils.m; path = Classes/SKCGUtils.m; sourceTree = SOURCE_ROOT; };
+		83FF483D18BDF6CE00CDA567 /* SKNSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKNSUtils.h; path = Classes/SKNSUtils.h; sourceTree = SOURCE_ROOT; };
+		83FF483E18BDF6CE00CDA567 /* SKNSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKNSUtils.m; path = Classes/SKNSUtils.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,8 @@
 		837668A61873436800CA63C4 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				83FF483D18BDF6CE00CDA567 /* SKNSUtils.h */,
+				83FF483E18BDF6CE00CDA567 /* SKNSUtils.m */,
 				83444332185B33D000C66776 /* SKQueues.h */,
 				83444333185B33D000C66776 /* SKQueues.m */,
 			);
@@ -124,8 +131,8 @@
 		83E6428B18BC017100CE294F /* QuartzCore */ = {
 			isa = PBXGroup;
 			children = (
-				83E6428818BC014200CE294F /* CGUtils.h */,
-				83E6428918BC014200CE294F /* CGUtils.m */,
+				83E6428818BC014200CE294F /* SKCGUtils.h */,
+				83E6428918BC014200CE294F /* SKCGUtils.m */,
 			);
 			name = QuartzCore;
 			sourceTree = "<group>";
@@ -182,7 +189,8 @@
 			files = (
 				83444334185B33D000C66776 /* SKQueues.m in Sources */,
 				837668AA1873438D00CA63C4 /* SKAlertView.m in Sources */,
-				83E6428A18BC014200CE294F /* CGUtils.m in Sources */,
+				83FF483F18BDF6CE00CDA567 /* SKNSUtils.m in Sources */,
+				83E6428A18BC014200CE294F /* SKCGUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

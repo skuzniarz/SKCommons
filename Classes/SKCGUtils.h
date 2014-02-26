@@ -15,7 +15,7 @@
 #define RAD2DEG(r) (r * 180.0 / M_PI)
 
 
-@interface CGUtils : NSObject
+@interface SKCGUtils : NSObject
 
 /**
  * Round to pixel (1 point on non-Retinach, 0.5 point on Retina).
