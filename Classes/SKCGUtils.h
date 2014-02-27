@@ -9,10 +9,10 @@
 #import <QuartzCore/QuartzCore.h>
 
 // convert degrees to radians
-#define DEG2RAD(d) (d * M_PI / 180.0)
+#define DEG2RAD(d) (((d) * M_PI) / 180.0)
 
 // convert radians to degrees
-#define RAD2DEG(r) (r * 180.0 / M_PI)
+#define RAD2DEG(r) (((r) * 180.0) / M_PI)
 
 
 @interface SKCGUtils : NSObject
