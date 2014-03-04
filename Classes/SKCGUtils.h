@@ -14,6 +14,17 @@
 // convert radians to degrees
 #define RAD2DEG(r) (((r) * 180.0) / M_PI)
 
+// X coordinate of CGRect
+#define X(r) r.origin.x
+
+// Y coordinate of CGRect
+#define Y(r) r.origin.y
+
+// width of CGRect
+#define W(r) r.size.width
+
+// height of CGRect
+#define H(r) r.size.height
 
 @interface SKCGUtils : NSObject
 
