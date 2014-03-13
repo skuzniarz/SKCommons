@@ -13,6 +13,8 @@
 		837668B21873453500CA63C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837668B11873453500CA63C4 /* UIKit.framework */; };
 		837668B61874755A00CA63C4 /* SKQueues.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83444332185B33D000C66776 /* SKQueues.h */; };
 		837668B71874755A00CA63C4 /* SKAlertView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 837668A81873438D00CA63C4 /* SKAlertView.h */; };
+		83B9479818D1F97E005C310A /* SKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B9479718D1F97E005C310A /* SKLabel.m */; };
+		83B9479E18D1FB15005C310A /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B9479D18D1FB15005C310A /* UIColor+Additions.m */; };
 		83E6428A18BC014200CE294F /* SKCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6428918BC014200CE294F /* SKCGUtils.m */; };
 		83E6429C18BC0D7500CE294F /* SKCGUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6428818BC014200CE294F /* SKCGUtils.h */; };
 		83FF483F18BDF6CE00CDA567 /* SKNSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF483E18BDF6CE00CDA567 /* SKNSUtils.m */; };
@@ -43,6 +45,10 @@
 		837668A81873438D00CA63C4 /* SKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKAlertView.h; path = Classes/SKAlertView.h; sourceTree = SOURCE_ROOT; };
 		837668A91873438D00CA63C4 /* SKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAlertView.m; path = Classes/SKAlertView.m; sourceTree = SOURCE_ROOT; };
 		837668B11873453500CA63C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83B9479618D1F97E005C310A /* SKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKLabel.h; path = Classes/SKLabel.h; sourceTree = SOURCE_ROOT; };
+		83B9479718D1F97E005C310A /* SKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKLabel.m; path = Classes/SKLabel.m; sourceTree = SOURCE_ROOT; };
+		83B9479C18D1FB15005C310A /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Additions.h"; path = "Classes/UIColor+Additions.h"; sourceTree = SOURCE_ROOT; };
+		83B9479D18D1FB15005C310A /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Additions.m"; path = "Classes/UIColor+Additions.m"; sourceTree = SOURCE_ROOT; };
 		83E6428818BC014200CE294F /* SKCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKCGUtils.h; path = Classes/SKCGUtils.h; sourceTree = SOURCE_ROOT; };
 		83E6428918BC014200CE294F /* SKCGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKCGUtils.m; path = Classes/SKCGUtils.m; sourceTree = SOURCE_ROOT; };
 		83FF483D18BDF6CE00CDA567 /* SKNSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKNSUtils.h; path = Classes/SKNSUtils.h; sourceTree = SOURCE_ROOT; };
@@ -124,6 +130,10 @@
 			children = (
 				837668A81873438D00CA63C4 /* SKAlertView.h */,
 				837668A91873438D00CA63C4 /* SKAlertView.m */,
+				83B9479618D1F97E005C310A /* SKLabel.h */,
+				83B9479718D1F97E005C310A /* SKLabel.m */,
+				83B9479C18D1FB15005C310A /* UIColor+Additions.h */,
+				83B9479D18D1FB15005C310A /* UIColor+Additions.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -189,8 +199,10 @@
 			files = (
 				83444334185B33D000C66776 /* SKQueues.m in Sources */,
 				837668AA1873438D00CA63C4 /* SKAlertView.m in Sources */,
+				83B9479818D1F97E005C310A /* SKLabel.m in Sources */,
 				83FF483F18BDF6CE00CDA567 /* SKNSUtils.m in Sources */,
 				83E6428A18BC014200CE294F /* SKCGUtils.m in Sources */,
+				83B9479E18D1FB15005C310A /* UIColor+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

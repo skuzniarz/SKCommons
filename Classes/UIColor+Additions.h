@@ -3,7 +3,7 @@
 //  SKCommons
 //
 //  Created by skuzniarz on 30/12/13.
-//  Copyright (c) 2012-2013 Szczepan Kuźniarz. All rights reserved.
+//  Copyright (c) 2013-2014 Szczepan Kuźniarz. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,6 +14,7 @@
 + (UIColor *)veryLightGrayColor;
 
 + (UIColor *)colorWithRGB:(NSString *)rgbHexString;
++ (UIColor *)colorWithARGB:(NSString *)argbHexString;
 
 - (UIColor *)scaleSaturation:(CGFloat)scale;
 - (UIColor *)scaleBrightness:(CGFloat)scale;
