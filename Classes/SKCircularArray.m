@@ -1,8 +1,9 @@
 //
 //  SKCircularArray.m
-//  Jolokia
+//  SKCommons
 //
-//  Copyright (c) 2013-2014 Szczepan Kuzniarz. All rights reserved.
+//  Created by skuzniarz on 14/03/14.
+//  Copyright (c) 2014 Szczepan Kuźniarz. All rights reserved.
 //
 
 #import "SKCircularArray.h"

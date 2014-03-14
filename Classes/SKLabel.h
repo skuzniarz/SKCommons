@@ -2,7 +2,7 @@
 //  SKLabel.h
 //  SKCommons
 //
-//  Created by szczepan on 13/03/14.
+//  Created by skuzniarz on 13/03/14.
 //  Copyright (c) 2014 Szczepan Kuźniarz. All rights reserved.
 //
 
