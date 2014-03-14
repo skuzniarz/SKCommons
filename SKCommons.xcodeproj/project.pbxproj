@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		83444306185B29B000C66776 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83444305185B29B000C66776 /* Foundation.framework */; };
 		83444334185B33D000C66776 /* SKQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = 83444333185B33D000C66776 /* SKQueues.m */; };
+		835D801F18D3A2D700F59AAC /* NSDictionary+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 835D801E18D3A2D700F59AAC /* NSDictionary+Path.m */; };
 		837668AA1873438D00CA63C4 /* SKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837668A91873438D00CA63C4 /* SKAlertView.m */; };
 		837668B21873453500CA63C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837668B11873453500CA63C4 /* UIKit.framework */; };
 		837668B61874755A00CA63C4 /* SKQueues.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83444332185B33D000C66776 /* SKQueues.h */; };
@@ -44,6 +45,8 @@
 		83444316185B29B000C66776 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		83444332185B33D000C66776 /* SKQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKQueues.h; path = Classes/SKQueues.h; sourceTree = SOURCE_ROOT; };
 		83444333185B33D000C66776 /* SKQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKQueues.m; path = Classes/SKQueues.m; sourceTree = SOURCE_ROOT; };
+		835D801D18D3A2D700F59AAC /* NSDictionary+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Path.h"; path = "Classes/NSDictionary+Path.h"; sourceTree = SOURCE_ROOT; };
+		835D801E18D3A2D700F59AAC /* NSDictionary+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Path.m"; path = "Classes/NSDictionary+Path.m"; sourceTree = SOURCE_ROOT; };
 		837668A81873438D00CA63C4 /* SKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKAlertView.h; path = Classes/SKAlertView.h; sourceTree = SOURCE_ROOT; };
 		837668A91873438D00CA63C4 /* SKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKAlertView.m; path = Classes/SKAlertView.m; sourceTree = SOURCE_ROOT; };
 		837668B11873453500CA63C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 		837668A61873436800CA63C4 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				835D801D18D3A2D700F59AAC /* NSDictionary+Path.h */,
+				835D801E18D3A2D700F59AAC /* NSDictionary+Path.m */,
 				83B947A818D3261D005C310A /* SKCircularArray.h */,
 				83B947A918D3261D005C310A /* SKCircularArray.m */,
 				83B947AF18D32A86005C310A /* SKMathUtils.h */,
@@ -215,6 +220,7 @@
 				83E6428A18BC014200CE294F /* SKCGUtils.m in Sources */,
 				83B947AA18D3261D005C310A /* SKCircularArray.m in Sources */,
 				83B9479E18D1FB15005C310A /* UIColor+Additions.m in Sources */,
+				835D801F18D3A2D700F59AAC /* NSDictionary+Path.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
