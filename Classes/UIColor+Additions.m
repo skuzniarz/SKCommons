@@ -58,7 +58,7 @@
     CGFloat hue, saturation, brightness, alpha;
     if ([self getHue:&hue saturation:&saturation brightness:&brightness alpha:&alpha]) {
         saturation *= scale;
-        saturation = (saturation <= 1.f) ?: 1.f;
+        saturation = (saturation <= 1.f) ? brightness : 1.f;
         return [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:alpha];
     } else {
         return self;
@@ -72,7 +72,7 @@
     CGFloat hue, saturation, brightness, alpha;
     if ([self getHue:&hue saturation:&saturation brightness:&brightness alpha:&alpha]) {
         brightness *= scale;
-        brightness = (brightness <= 1.f) ?: 1.f;
+        brightness = (brightness <= 1.f) ? brightness : 1.f;
         return [UIColor colorWithHue:hue saturation:saturation brightness:brightness alpha:alpha];
     } else {
         return self;
