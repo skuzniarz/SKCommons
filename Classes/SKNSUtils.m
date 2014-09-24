@@ -8,7 +8,6 @@
 
 #import "SKNSUtils.h"
 
-
 @implementation SKNSUtils
 
 + (double)currentTimeMillis {

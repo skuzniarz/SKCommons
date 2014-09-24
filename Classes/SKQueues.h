@@ -6,6 +6,8 @@
 //  Copyright (c) 2013-2014 Szczepan Kuzniarz. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
+
 @protocol SKRunnable <NSObject>
 
 - (void)run;

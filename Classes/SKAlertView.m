@@ -8,7 +8,6 @@
 
 #import "SKAlertView.h"
 
-
 @interface SKAlertView ()
 
 @property (nonatomic, copy) SKAlertBlock cancelBlock;

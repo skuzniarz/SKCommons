@@ -8,7 +8,6 @@
 
 #import "SKCircularArray.h"
 
-
 @interface SKCircularArray()
 
 @property (nonatomic) NSUInteger maxSize;

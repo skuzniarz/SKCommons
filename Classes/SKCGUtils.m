@@ -9,7 +9,6 @@
 #import "SKCGUtils.h"
 #import <UIKit/UIKit.h>
 
-
 @implementation SKCGUtils
 
 + (CGFloat)roundpx:(CGFloat)value {

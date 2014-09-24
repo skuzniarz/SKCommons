@@ -8,7 +8,6 @@
 
 #import "NSDictionary+Path.h"
 
-
 @implementation NSDictionary (Path)
 
 - (id)objectForPath:(NSString *)path {
