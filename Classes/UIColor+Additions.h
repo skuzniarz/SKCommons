@@ -15,6 +15,7 @@
 
 + (UIColor *)colorWithRGB:(NSString *)rgbHexString;
 + (UIColor *)colorWithARGB:(NSString *)argbHexString;
++ (UIColor *)colorWithRGBA:(NSString *)rgbaHexString;
 
 - (UIColor *)scaleSaturation:(CGFloat)scale;
 - (UIColor *)scaleBrightness:(CGFloat)scale;

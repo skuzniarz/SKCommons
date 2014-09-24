@@ -3,14 +3,14 @@
 //  SKCommons
 //
 //  Created by skuzniarz on 04/02/13.
-//  Copyright (c) 2013 Szczepan Kuzniarz. All rights reserved.
+//  Copyright (c) 2013-2014 Szczepan Kuzniarz. All rights reserved.
 //
 
 #import "SKQueues.h"
 
 @implementation SKQueues
 
-+ (void)dispatchAsync:(dispatch_block_t) block {
++ (void)dispatchAsync:(dispatch_block_t)block {
     dispatch_async(dispatch_get_global_queue(0, 0), block);
 }
 
@@ -18,8 +18,12 @@
     dispatch_async(dispatch_get_global_queue(priority, 0), block);
 }
 
-+ (void)dispatchOnMainQueue:(dispatch_block_t) block {
++ (void)dispatchOnMainQueue:(dispatch_block_t)block {
     dispatch_async(dispatch_get_main_queue(), block);
+}
+
++ (void)dispatchOnMainQueueAndWait:(dispatch_block_t)block {
+    dispatch_sync(dispatch_get_main_queue(), block);
 }
 
 + (void)execute:(id<SKRunnable>)runnable {

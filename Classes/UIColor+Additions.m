@@ -51,6 +51,23 @@
     }
 }
 
++ (UIColor *)colorWithRGBA:(NSString *)rgbaHexString {
+    if ([rgbaHexString hasPrefix:@"#"]) {
+        rgbaHexString = [rgbaHexString substringFromIndex:1];
+    }
+    NSScanner *scanner = [NSScanner scannerWithString:rgbaHexString];
+    unsigned int rgba;
+    if (![scanner scanHexInt:&rgba]) {
+        return [UIColor blackColor];
+    } else {
+        CGFloat r = ((CGFloat)((rgba >> 24) & 0x000000ff)) / 255.f;
+        CGFloat g = ((CGFloat)((rgba >> 16) & 0x000000ff)) / 255.f;
+        CGFloat b = ((CGFloat)((rgba >>  8) & 0x000000ff)) / 255.f;
+        CGFloat a = ((CGFloat)((rgba >>  0) & 0x000000ff)) / 255.f;
+        return [UIColor colorWithRed:r green:g blue:b alpha:a];
+    }
+}
+
 - (UIColor *)scaleSaturation:(CGFloat)scale {
     if (scale < 0.f) {
         @throw([NSException exceptionWithName:NSInvalidArgumentException reason:@"scale < 0" userInfo:nil]);
