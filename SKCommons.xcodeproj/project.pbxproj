@@ -18,6 +18,7 @@
 		83B9479E18D1FB15005C310A /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B9479D18D1FB15005C310A /* UIColor+Additions.m */; };
 		83B947AA18D3261D005C310A /* SKCircularArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B947A918D3261D005C310A /* SKCircularArray.m */; };
 		83B947B118D32A86005C310A /* SKMathUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B947B018D32A86005C310A /* SKMathUtils.m */; };
+		83CB2F2C19D49D2200E95269 /* SKGLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CB2F2B19D49D2200E95269 /* SKGLUtils.m */; };
 		83E6428A18BC014200CE294F /* SKCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E6428918BC014200CE294F /* SKCGUtils.m */; };
 		83E6429C18BC0D7500CE294F /* SKCGUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83E6428818BC014200CE294F /* SKCGUtils.h */; };
 		83FF483F18BDF6CE00CDA567 /* SKNSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FF483E18BDF6CE00CDA567 /* SKNSUtils.m */; };
@@ -58,6 +59,8 @@
 		83B947A918D3261D005C310A /* SKCircularArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKCircularArray.m; path = Classes/SKCircularArray.m; sourceTree = SOURCE_ROOT; };
 		83B947AF18D32A86005C310A /* SKMathUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKMathUtils.h; path = Classes/SKMathUtils.h; sourceTree = SOURCE_ROOT; };
 		83B947B018D32A86005C310A /* SKMathUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKMathUtils.m; path = Classes/SKMathUtils.m; sourceTree = SOURCE_ROOT; };
+		83CB2F2A19D49D2200E95269 /* SKGLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKGLUtils.h; path = Classes/SKGLUtils.h; sourceTree = SOURCE_ROOT; };
+		83CB2F2B19D49D2200E95269 /* SKGLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKGLUtils.m; path = Classes/SKGLUtils.m; sourceTree = SOURCE_ROOT; };
 		83E6428818BC014200CE294F /* SKCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKCGUtils.h; path = Classes/SKCGUtils.h; sourceTree = SOURCE_ROOT; };
 		83E6428918BC014200CE294F /* SKCGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SKCGUtils.m; path = Classes/SKCGUtils.m; sourceTree = SOURCE_ROOT; };
 		83FF483D18BDF6CE00CDA567 /* SKNSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SKNSUtils.h; path = Classes/SKNSUtils.h; sourceTree = SOURCE_ROOT; };
@@ -110,6 +113,7 @@
 				837668A61873436800CA63C4 /* Foundation */,
 				83E6428B18BC017100CE294F /* QuartzCore */,
 				837668A71873437400CA63C4 /* UIKit */,
+				83CB2F2919D49CDB00E95269 /* GLKit */,
 				83444308185B29B000C66776 /* Supporting Files */,
 			);
 			path = SKCommons;
@@ -151,6 +155,15 @@
 				83B9479D18D1FB15005C310A /* UIColor+Additions.m */,
 			);
 			name = UIKit;
+			sourceTree = "<group>";
+		};
+		83CB2F2919D49CDB00E95269 /* GLKit */ = {
+			isa = PBXGroup;
+			children = (
+				83CB2F2A19D49D2200E95269 /* SKGLUtils.h */,
+				83CB2F2B19D49D2200E95269 /* SKGLUtils.m */,
+			);
+			name = GLKit;
 			sourceTree = "<group>";
 		};
 		83E6428B18BC017100CE294F /* QuartzCore */ = {
@@ -220,6 +233,7 @@
 				83E6428A18BC014200CE294F /* SKCGUtils.m in Sources */,
 				83B947AA18D3261D005C310A /* SKCircularArray.m in Sources */,
 				83B9479E18D1FB15005C310A /* UIColor+Additions.m in Sources */,
+				83CB2F2C19D49D2200E95269 /* SKGLUtils.m in Sources */,
 				835D801F18D3A2D700F59AAC /* NSDictionary+Path.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
