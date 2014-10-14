@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Szczepan Kuźniarz. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import <OpenGLES/ES2/gl.h>
 
 @interface SKGLUtils : NSObject
